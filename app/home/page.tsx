@@ -1,11 +1,13 @@
 "use client";
+import { PageStyle } from "../pagestyle"
+
 
 export default function Homepage() {
   return (
-    <div className = "flex w-full h-2000 bg-white ">
-      <h2>
-        This is just a placeholder
-      </h2>
-    </div>
+    <PageStyle>
+      <div className = "flex w-full h-2000 dark:bg-gray-800 bg-gray-300">
+      
+      </div> 
+    </PageStyle>
   );
 }
