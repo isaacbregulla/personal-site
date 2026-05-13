@@ -22,7 +22,7 @@ export default function AboutMe(){
       <PageStyle>
         <div className = "flex w-full h-full dark:bg-gray-800 bg-gray-300">
           <div className = "flex flex-col h-full w-full dark:bg-gray-800 bg-gray-300 text-xs sm:text-xs md:text-sm lg:text-md mt-8">
-            <h2 className = "p-10"><strong className = "text-md sm:text-lg md:text-xl lg:text-2xl"> Curriculum Vitae - CV </strong></h2>
+            <h2 className = "lg:p-10 md:p-8 sm:p-4"><strong className = "text-md sm:text-lg md:text-xl lg:text-2xl"> Curriculum Vitae - CV </strong></h2>
             
             <div className = "flex">
               <div className = "w-80 sm:w-96 md:w-110 lg:w-125 xl:w-175 h-full justify-center items-center ml-10">
